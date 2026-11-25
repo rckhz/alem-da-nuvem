@@ -30,7 +30,7 @@
 | JavaScript | Seleção das peças do vape, respostas da atividade sobre publicidade e abertura da orientação escolhida. |
 | Canvas 2D | Desenho dos pulmões e das ramificações dos brônquios no navegador. |
 
-O site é estático. HTML, estilos, scripts, fonte e imagens são servidos diretamente ao navegador. Na distribuição offline, basta extrair o ZIP e abrir `index.html`. As interações funcionam localmente; os links para artigos e instituições precisam de internet.
+O site é estático. HTML, estilos, scripts, fonte e imagens são servidos diretamente ao navegador. Na distribuição offline, basta extrair o ZIP e abrir `site/index.html`. As interações funcionam localmente; os links para artigos e instituições precisam de internet.
 
 ## Fontes e créditos
 

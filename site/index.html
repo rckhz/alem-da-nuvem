@@ -1,0 +1,34 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Além da Nuvem · O que você inala?</title>
+<meta name="description" content="Explore um vape por dentro, investigue o que um anúncio omite e encontre apoio para recusar ou parar de usar.">
+<meta name="theme-color" content="#17181b">
+<link rel="stylesheet" href="style.css"><script defer src="app.js"></script><script defer src="art.js"></script>
+</head>
+<body>
+<a class="skip" href="#principal">Pular para o conteúdo</a>
+<header><div class="wrap bar"><a class="brand" href="#principal">Além da Nuvem<span>.</span></a><nav aria-label="Navegação principal"><a href="#anuncio">Publicidade</a><a href="#caso">Caso real</a><a href="#apoio">Buscar apoio</a></nav></div></header>
+<main id="principal">
+<section class="wrap hero" aria-labelledby="titulo"><div><p class="label">Cigarros eletrônicos</p>
+<h1 id="titulo">O que você<br>inala?</h1>
+<p class="lead">Do líquido à primeira tragada, acompanhe o caminho do aerossol e descubra o que ele pode levar aos pulmões.</p>
+<div class="links"><a class="primary" href="#explorar">Explorar o vape</a><a class="secondary" href="#parar">Quero ajuda para parar</a></div></div>
+<img src="vape.jpg" alt="Ilustração do vape desmontado, com bocal, reservatório, resistência e bateria." width="1254" height="1254"></section>
+<section id="explorar" class="tint"><div class="wrap section"><h2>Por dentro do vape</h2><p class="intro">Toque em uma peça para ver o que acontece quando você traga.</p>
+<div class="split"><div class="specimen"><img src="vape.jpg" alt="Vista desmontada do dispositivo, do bocal até a bateria." width="1254" height="1254">
+<button class="pin mouth" data-part="bocal" aria-label="Explorar bocal" aria-controls="part-text">Bocal</button><button class="pin tank" data-part="liquido" aria-label="Explorar reservatório" aria-controls="part-text">Reservatório</button><button class="pin coil" data-part="resistencia" aria-label="Explorar resistência" aria-controls="part-text">Resistência</button></div>
+<div id="part-text" class="explanation" aria-live="polite"><h3>Reservatório</h3><p>O líquido pode conter glicerina, propilenoglicol, aromatizantes e nicotina. A composição varia de um produto para outro.</p></div></div>
+<details><summary>O que pode mudar no corpo?</summary><div class="effects"><canvas id="lungs" width="740" height="620" role="img" aria-label="Ilustração dos pulmões e dos brônquios"></canvas><dl><dt>Pulmões</dt><dd>Partículas finas podem alcançar regiões profundas e irritar as vias respiratórias.</dd><dt>Coração</dt><dd>A nicotina pode acelerar os batimentos e elevar a pressão arterial.</dd><dt>Cérebro e dependência</dt><dd>Na adolescência, a nicotina pode prejudicar a atenção e a aprendizagem. Com o uso repetido, o cérebro se adapta. Na falta dela, podem surgir irritabilidade e vontade intensa de usar outra vez.</dd></dl></div></details>
+<p class="source">Fontes: <a href="https://www.gov.br/inca/pt-br/assuntos/causas-e-prevencao-do-cancer/tabagismo/dispositivos-eletronicos-para-fumar">INCA</a> · <a href="https://www.cdc.gov/tobacco/e-cigarettes/health-effects.html">CDC</a> · <a href="https://www.gov.br/anvisa/pt-br/assuntos/tabaco/cigarro-eletronico/arquivos/os-022022-ggtab-atualiza-os-032020-parte-1-impacto-a-saude.pdf">Anvisa</a></p></div></section>
+<section id="anuncio" class="wrap section"><h2>O que o anúncio omite?</h2><div class="split quiz"><blockquote><small>Anúncio fictício</small>“Já provou o sabor do momento?”</blockquote>
+<div><h3>O que dá para saber sobre a nicotina só olhando esse post?</h3><div id="answers"><button data-answer="doce">O sabor doce indica pouca nicotina.</button><button data-answer="incerto">O post não informa a quantidade.</button></div><p id="feedback" role="status"></p></div></div>
+<p class="source">Sobre publicidade, curiosidade e influência dos colegas: <a href="https://www.cdc.gov/tobacco/e-cigarettes/why-youth-vape.html">CDC</a></p></section>
+<section id="caso" class="dark"><div class="wrap section split"><img class="xray" src="radiografia.jpg" alt="Radiografia de tórax do estudante. Os médicos observaram infiltrados nos dois pulmões." width="800" height="793"><div><p class="label">Um caso real</p><h2>Sete dias na UTI.</h2><p class="lead">Este é o exame de um estudante de 23 anos que teve uma lesão pulmonar associada ao uso de vape. Durante a internação, ele precisou de oxigênio de alto fluxo.</p><p class="source">Imagem de Adhikari et al., <cite>Cureus</cite> (2021), figura 1. <a href="https://pubmed.ncbi.nlm.nih.gov/33815967/">Ler o relato clínico</a> · <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p></div></div></section>
+<section id="apoio" class="wrap section"><h2>E se acontecer comigo?</h2><p class="intro">Escolha a situação que você quer conversar sobre.</p><div class="support">
+<details id="oferta" name="situacao"><summary>Me ofereceram um vape</summary><p>Você pode recusar com um “vou passar” e continuar a conversa. Se insistirem, procure um colega que respeite sua escolha. Você decide se quer explicar o motivo.</p></details>
+<details id="amigo" name="situacao"><summary>Quero ajudar um amigo</summary><p>Pergunte como ele se sente e que tipo de ajuda gostaria de receber. Se quiser parar, ofereça companhia para conversar com um adulto de confiança ou procurar a unidade básica de saúde (UBS).</p></details>
+<details id="parar" name="situacao"><summary>Quero ajuda para parar</summary><p>Escolha alguém de confiança para contar que quer parar. Na UBS, diga que usa cigarro eletrônico e peça orientação à equipe sobre o apoio disponível. Se já tentou antes, conte o que foi mais difícil.</p><a href="https://linhasdecuidado.saude.gov.br/portal/tabagismo/sou-paciente/">Consultar as orientações do Ministério da Saúde</a></details>
+</div><p class="source">Fontes: <a href="https://www.cdc.gov/tobacco/e-cigarettes/protecting-youth.html">CDC</a> · <a href="https://linhasdecuidado.saude.gov.br/portal/tabagismo/sou-paciente/">Ministério da Saúde</a></p></section>
+</main><footer><div class="wrap bar"><strong>Além da Nuvem.</strong></div></footer></body></html>

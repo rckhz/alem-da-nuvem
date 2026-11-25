@@ -1,0 +1,26 @@
+﻿# Além da Nuvem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor e cache local
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+
+# Arquivos temporários e pacotes gerados
+*.tmp
+*.bak
+*.zip
+*.tar.gz
+
+# Sessões de agentes e ferramentas de design
+.taste-skill/
+.agents/
+.claude/
+.codex/
+
+# Credenciais privadas da integração Sites
+.openai/hosting.json
